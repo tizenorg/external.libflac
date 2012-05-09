@@ -1,3 +1,11 @@
+libflac (1.2.1-1slp2) unstable; urgency=low
+
+  * Upload Package.
+  * Git: slp/pkgs/l/libflac
+  * Tag: libflac_1.2.1-1slp2
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Wed, 09 May 2012 20:16:17 +0900
+
 libflac (1.2.1) unstable; urgency=low
 
   * Initial Version.
