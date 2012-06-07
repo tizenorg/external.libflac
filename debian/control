@@ -1,7 +1,7 @@
 Source: libflac
 Section: libs
 Priority: optional
-Uploaders: Prince Kumar Dubey<prince.dubey@samsung.com>, Daniel Juyung Seo <juyung.seo@samsung.com>
+Uploaders: Prince Kumar Dubey<prince.dubey@samsung.com>, Daniel Juyung Seo <juyung.seo@samsung.com>, Hyoyoung Chang <hyoyoung.chang@samsung.com>
 Maintainer: Josh Coalson
 Build-Depends: cdbs, libogg-dev, pkg-config, libtool
 Standards-Version: 1.2.1
