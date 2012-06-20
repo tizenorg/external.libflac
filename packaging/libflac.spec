@@ -2,8 +2,8 @@
 
 Name:       libflac
 Summary:    An Open Source lossless audio codec
-Version:    1.2.1+slp2+build02
-Release:    release 1
+Version:    1.2.1+slp2+build03
+Release:    1
 Group:      Libraries/Sound
 License:    BSD
 URL:        http://flac.sourceforge.net/
