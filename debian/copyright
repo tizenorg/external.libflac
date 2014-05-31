@@ -1,0 +1,38 @@
+/* FLAC - Free Lossless Audio Codec
+ * Copyright (C) 2001,2002,2003,2004,2005,2006,2007  Josh Coalson
+ *
+ * This file is part the FLAC project.  FLAC is comprised of several
+ * components distributed under difference licenses.  The codec libraries
+ * are distributed under Xiph.Org's BSD-like license (see the file
+ * COPYING.Xiph in this distribution).  All other programs, libraries, and
+ * plugins are distributed under the LGPL or GPL (see COPYING.LGPL and
+ * COPYING.GPL).  The documentation is distributed under the Gnu FDL (see
+ * COPYING.FDL).  Each file in the FLAC distribution contains at the top the
+ * terms under which it may be distributed.
+ *
+ * Since this particular file is relevant to all components of FLAC,
+ * it may be distributed under the Xiph.Org license, which is the least
+ * restrictive of those mentioned above.  See the file COPYING.Xiph in this
+ * distribution.
+ */
+
+FLAC (http://flac.sourceforge.net/) is an Open Source lossless audio
+codec developed by Josh Coalson.
+
+FLAC is comprised of
+  * `libFLAC', a library which implements reference encoders and
+    decoders for native FLAC and Ogg FLAC, and a metadata interface
+  * `libFLAC++', a C++ object wrapper library around libFLAC
+  * `flac', a command-line program for encoding and decoding files
+  * `metaflac', a command-line program for viewing and editing FLAC
+    metadata
+  * player plugins for XMMS and Winamp
+  * user and API documentation
+
+The libraries (libFLAC, libFLAC++) are
+licensed under Xiph.org's BSD-like license (see COPYING.Xiph).  All other
+programs and plugins are licensed under the GNU General Public License
+(see COPYING.GPL).  The documentation is licensed under the GNU Free
+Documentation License (see COPYING.FDL).
+
+
