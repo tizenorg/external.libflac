@@ -67,4 +67,3 @@ if [ -d %{buildroot} ]; then rm -rf %{buildroot}; fi
 /usr/share/aclocal/libFLAC.m4
 /usr/share/man/man1/flac.1.gz
 /usr/share/man/man1/metaflac.1.gz
-
