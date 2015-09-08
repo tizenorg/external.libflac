@@ -2,7 +2,7 @@
 
 Name:       libflac
 Summary:    An Open Source lossless audio codec
-Version:    1.2.1+slp2+build03
+Version:    1.2.1+slp2+build04
 Release:    1
 Group:      Libraries/Sound
 License:    BSD
@@ -35,6 +35,8 @@ make
 if [ -d %{buildroot} ]; then rm -rf %{buildroot}; fi
 mkdir -p %{buildroot}$
 make install DESTDIR=%{buildroot}
+mkdir -p %{buildroot}/usr/share/license
+cat %{_builddir}/%{buildsubdir}/COPYING.* > %{buildroot}/usr/share/license/%{name}
 
 %clean
 if [ -d %{buildroot} ]; then rm -rf %{buildroot}; fi
@@ -47,6 +49,7 @@ if [ -d %{buildroot} ]; then rm -rf %{buildroot}; fi
 %defattr(-,root,root,-)
 %doc AUTHORS COPYING.GPL COPYING.LGPL COPYING.Xiph README
 %prefix/lib/libFLAC.so.*
+/usr/share/license/%{name}
 
 %files devel
 %defattr(-,root,root,-)
